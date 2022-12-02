@@ -1,0 +1,26 @@
+/** @format */
+
+.sidebar {
+  border: 1px solid black;
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+}
+.sidebar__icons {
+  color: white;
+
+  border-bottom: 2px solid white;
+  padding: 8px;
+  /* border-radius: 10px; */
+}
+.sidebar__icons:hover {
+  border-bottom: 2px solid black;
+  transition: 200ms all ease-in-out;
+  transform: scale(1.4) !important;
+  cursor: pointer;
+}

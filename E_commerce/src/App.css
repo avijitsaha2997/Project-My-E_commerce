@@ -1,0 +1,9 @@
+/** @format */
+
+.home__display__sidebar {
+  position: fixed;
+  z-index: 100;
+}
+.home__display__component {
+  padding-left: 62px;
+}
