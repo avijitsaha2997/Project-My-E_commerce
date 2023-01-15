@@ -13,7 +13,7 @@ function Checkout() {
 
                 <div className="checkout__title">
                     <h2>
-                      Your shopping Cart...
+                      Your shopping Cart list...
                     </h2>
                     {basket.map(item => (
                         <CheckoutProduct

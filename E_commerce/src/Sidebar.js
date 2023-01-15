@@ -9,13 +9,21 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">
+        <Link to="/">
+          <HomeIcon className="sidebar__icons"/>
+        </Link>
 
-        <HomeIcon className="sidebar__icons"/>
         <Link to="/headset">
           <HeadsetIcon className="sidebar__icons"/>
         </Link>
-        <PhoneIphoneSharpIcon className="sidebar__icons"/>
-        <ComputerIcon className="sidebar__icons"/>
+
+        <Link to="/mobile">
+           <PhoneIphoneSharpIcon className="sidebar__icons"/>
+        </Link>
+
+        <Link to="/computer">
+          <ComputerIcon className="sidebar__icons"/>
+        </Link>
 
     </div>
   );

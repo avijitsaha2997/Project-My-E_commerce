@@ -2,61 +2,61 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 
-function Home() {
+function Computer() {
   return (
     <div className="home">
       <div className="home__container">
 
         <img
           className="home__image"
-          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/bcb569da-ce7c-43e9-82bd-bc7bd0ae205b/del3fd1-a465fbb7-b006-4dd5-a00a-796159161a54.jpg"
+          src="https://wallpapers.com/images/featured/murjp1nk4lp1idlt.jpg"
           alt=""
         />
 
         <div className="home__row">
           <Product
-            id="8723749"
-            title="The PS5 is a powerful console offering a sublime current-gen gaming experience."
+            id="749"
+            title="Macbook Pro 14-inch"
             price={29.99}
-            image="https://wallpapers.com/images/hd/white-ps5-collection-4dr2ngsgz2w9g1s1.jpg"
+            image="https://www.apple.com/v/macbook-pro-14-and-16/c/images/overview/hero/hero_intro_endframe__e6khcva4hkeq_large.jpg"
             rating={3}
           />
           <Product
-            id="4592758"
-            title="Xbox One S. This machine is so powerful. Next generation gaming with Xbox seires."
+            id="758"
+            title="Acer Nitro 7"
             price={29.99}
-            image="https://compass-ssl.xbox.com/assets/08/7e/087efc15-7859-4641-afbc-bfddf11ba960.jpg?n=X1S-2020_Page-Hero-0_Upgrade_767x431.jpg"
+            image="https://www.notebookcheck.net/fileadmin/_processed_/e/a/csm_Nitro_7_AN715_51_05_f69b63ef61.jpg"
             rating={4}
           />
         </div>
 
         <div className="home__row">
           <Product
-            id="9056235"
+            id="235"
             title="ASUS TUF A17 2020 Version 17.3-inch FHD Gaming Laptop."
             price={1099.99}
             image="https://asusrog.com.bd/wp-content/uploads/2020/06/3-1-1.jpg"
             rating={4}
           />
           <Product
-            id="1032456"
-            title="i phone 14 pro max. The best mobile phone in apple history."
+            id="456"
+            title="Lenevo Legion 5"
             price={799.99}
-            image="https://www.pngall.com/wp-content/uploads/13/iPhone-14-PNG-Pic.png"
+            image="https://www.lenovo.com/medias/lenovo-laptop-legion-5-15-amd-series-thumbnail.png?context=bWFzdGVyfHJvb3R8ODI2NzR8aW1hZ2UvcG5nfGhmMi9oMzYvMTQxOTA0NjcxNTM5NTAucG5nfGE0NTE3OGE0M2NmODg2YWU2M2E3MzRkMjY2Nzc0OWZmMzQ3MDhmMDkxZGJiNjc5YjNkYmUxYmExYmFhNTBkN2Y"
             rating={4}
           />
           <Product
-            id="6576782"
-            title="Logitech G develops award-winning wireless and wired gaming mice."
+            id="782"
+            title="Acer Nitro 5"
             price={59.99}
-            image="https://static-01.daraz.com.bd/p/fefcff956a23fbebe37aa1d769c4e74e.jpg"
+            image="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Acer_Nitro_5_actual_actual_header.jpg"
             rating={4}
           />
         </div>
 
         <div className="home__row">
           <Product
-            id="3968458"
+            id="458"
             title="SAMSUNG 49” Odyssey G9 Gaming Monitor, 1000R Curved Screen."
             price={1299.99}
             image="https://m.media-amazon.com/images/I/61SQz8S+fEL._AC_SL1000_.jpg"
@@ -69,4 +69,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Computer;

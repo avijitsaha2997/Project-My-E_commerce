@@ -2,11 +2,13 @@ import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Checkout from "./Checkout";
+import Computer from "./Computer";
 import { auth } from "./firebase";
 import Header from "./Header";
 import Headset from "./Headset";
 import Home from "./Home";
 import Login from "./Login";
+import Mobile from "./Mobile";
 import Sidebar from "./Sidebar";
 import { useStateValue } from "./StateProvider";
 function App() {
@@ -60,14 +62,14 @@ function App() {
           </div>
         }>
         </Route>
-        <Route path="/mboile" element={
+        <Route path="/mobile" element={
           <div>
 
               <Header />
 
               <div className="home__display">
                 <div className="home__display__sidebar"><Sidebar/></div>
-                <div className="home__display__component"><Home /></div>
+                <div className="home__display__component"><Mobile /></div>
               </div>
 
           </div>
@@ -80,7 +82,7 @@ function App() {
 
               <div className="home__display">
                 <div className="home__display__sidebar"><Sidebar/></div>
-                <div className="home__display__component"><Home /></div>
+                <div className="home__display__component"><Computer /></div>
               </div>
 
           </div>
